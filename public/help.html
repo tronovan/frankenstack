@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/start.html">Start a VM</a></li>
+        <li><a href="/runningvms">Manage VMs</a></li>
+        <li><a href="http://192.168.1.1">Network</a></li>
+        <li style="float:right" class="active"><a href="/hardware.html">Help</a></li>
+    </ul>
+
+    <br>
+    <h1>Start with a machine running ubuntu.</h1>
+    <p> start with a fresh install of ubuntu. Make sure you have open-ssh installed and that a hostname has been setup.</p>
+
+    <h1>Setup no password SSH</h1>
+    <p>use ssh-copy to copy your ssh key over to the new server.</p>
+    <h1>Add scripts to /home/dono/.scripts/</h1>
+    <p> Copy the .scripts folder from the main server over to the new server.</p>
+    <h1>Install VirtualBox</h1>
+    <p>Install virtualbox on the new server using apt-get update; apt-get install virtualbox -y</p>
+
+    <h1>Import VM</h1>
+
+    <p>use scp to copy the ubuntu folder from the main server to your new server. </p>
+    <h1>Launch the VM</h1>
+</body>
+
+</html>
