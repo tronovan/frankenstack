@@ -1,0 +1,11 @@
+<svg viewBox="0 0 95 50" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="#F5F5FA" fill="white" stroke-width="5">
+
+        <rect x="6" y="18" width="15" height="15"/>
+
+        <circle cx="25" cy="25" r="9"/>
+        <circle cx="40" cy="25" r="11"/>
+        <circle cx="55" cy="25" r="13"/>
+        <rect x="58" y="10" width="30" height="30"/>
+    </g>
+</svg>
