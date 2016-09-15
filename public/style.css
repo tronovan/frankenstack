@@ -1,0 +1,124 @@
+h1{
+	font-size: 50px;
+	font-family: monospace;
+	font-weight: bold;
+	color: green;
+	text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+html {
+    background: url('logo.svg') no-repeat center center fixed;
+}
+th, td{
+
+   border: 1px solid black;
+   background-color: rgba(200,200,200,.2);
+}
+.vmtable {
+   border: 1px solid black;
+   width: 100%;
+}
+
+.formtable{
+	border: 1px solid black;
+	width: 50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+}
+input[type=text] {
+font-size: 20px;
+	background-color: rgba(222,222,222,.3);
+    width: 98%;
+    height: 40px;
+    border-radius: 7px;
+}
+select{
+
+	background-color: rgba(222,222,222,.3);
+font-size: 20px;
+	width: 100%;
+	height: 40px;
+	border-radius: 7px;
+}
+input[type=submit] {
+    font-family: monospace;
+    background-color: #0c7600;
+    border: none;
+    border: #00ffff;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+}
+li a:hover:not(.active) {
+    background-color: darkgrey;
+}
+.active {
+    background-color: green;
+}
+.heading {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 160px;
+    color: green;
+}
+@media screen and (max-width: 800px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: dimgray;
+
+    }
+    li a {
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+
+    }
+    /* Change the link color on hover */
+    li a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+}
+   input[type=submit] {
+    font-family: monospace;
+    background-color: #0c7600;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
